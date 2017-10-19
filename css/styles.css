@@ -1,8 +1,51 @@
+img {
+  border-radius: 18px;
+}
+
 body {
-  background-image: url("https://i.ytimg.com/vi/LEKgHLxcFxM/maxresdefault.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  position: absolute;
-  color: white;
+  padding: 20px;
+  background-color: #3d2200;
+  color: #e54309;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+#line1, #line2, #line3 {
+  background-color: tan;
+}
+
+.jumbotron {
+  background-color: tan;
+  text-align: center;
+}
+
+.btn-success {
+  font-size: 28px;
+}
+
+#big {
+  font-size: 120px;
+}
+
+ul {
+display:table;
+margin:0 auto;
+}
+
+text {
+  font-size: 28px;
 }

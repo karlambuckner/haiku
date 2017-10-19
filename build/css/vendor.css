@@ -6756,11 +6756,16 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+img {
+  border-radius: 18px;
+}
+
 body {
-  background-image: url("https://i.ytimg.com/vi/LEKgHLxcFxM/maxresdefault.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  position: absolute;
-  color: white;
+  padding: 20px;
+  background-color: #3d2200;
+  color: #e54309;
+}
+
+#line1, #line2, #line3 {
+  background-color: tan;
 }

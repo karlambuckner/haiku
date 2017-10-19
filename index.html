@@ -3,20 +3,27 @@
   <head>
     <link rel="stylesheet" href="build/css/vendor.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Reenie+Beanie" rel="stylesheet">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <meta charset="utf-8">
     <title>Haiku Poems</title>
   </head>
   <body>
-    <div class="container">
-    <h1>Make a haiku poem</h1>
-    <h3>Rules of a haiku:</h3>
+    <div class=jumbotron>
+      <h1 id="big">HAIKU MAKER</h1>
+    </div>
+    <img src="img/maple 2.jpg" alt="japanese maple">
+    <h1>Hello! Would you like to make a haiku poem?</h1>
+    <h2>Great! Rules of a haiku:</h2>
     <ul>
-      <li>Line 1 is 5 syllables</li>
-      <li>Line 2 is 7 syllables</li>
-      <li>Line 3 is 5 syllables</li>
+      <li>Line 1 must have 5 syllables</li>
+      <li>Line 2 must have 7 syllables</li>
+      <li>Line 3 must have 5 syllables</li>
     </ul>
+    <h3>Go ahead and enter your haiku!</h3>
+    <br>
+    <div class="card">
     <form id="haiku-form">
       <label for="line1">Line 1:</label>
       <input id="line1" type="text">
@@ -28,6 +35,7 @@
       <br>
       <button class="btn btn-success" type="submit">Submit</button>
     </form>
+    </div>
       <br>
       <div class="card">
           <h4><span id="validity"></span></h4>
@@ -38,6 +46,5 @@
         <h2><span id="output2"></span></h2>
         <h2><span id="output3"></span></h2>
       </div>
-    </div>
   </body>
 </html>
